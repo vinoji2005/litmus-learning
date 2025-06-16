@@ -1,0 +1,4 @@
+kubectl cluster-info > cluster-info.txt
+kubectl get nodes >> cluster-info.txt
+kubectl version >> cluster-info.txt
+
